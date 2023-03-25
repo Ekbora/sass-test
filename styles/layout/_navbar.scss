@@ -1,0 +1,52 @@
+.top {
+    background: violet;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+
+    .navbar {
+
+        .navbar-content {
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            margin: 0;
+            align-items: center;
+
+            li {
+                border: black 2px solid;
+                border-radius: 20px;
+                padding: 10px;
+                margin-left: 10px;
+                background: blueviolet;
+
+                &:hover {
+                    background: blue;
+                    transition: all .7s ease;
+                    cursor: pointer;
+                }
+
+                a {
+                    color: #fff;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .top {
+        display: block;
+        .navbar {
+            .navbar-content {
+                display: block;
+                text-align: center;
+                li {
+                    margin: 10px;
+                }
+            }
+        }
+    }
+}

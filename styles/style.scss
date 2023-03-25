@@ -1,0 +1,21 @@
+@import 'base/_reset.scss';
+@import 'base/_typography.scss';
+@import 'partials/_mixins.scss';
+@import 'layout/_navbar.scss';
+@import 'layout/_galerie.scss';
+@import 'components/_button.scss';
+@import 'layout/_sections.scss';
+
+.display {
+    display: none;
+}
+
+.navigation {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .navigation {
+        display: initial;
+    }
+}

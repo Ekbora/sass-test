@@ -1,0 +1,5 @@
+@mixin positionnementFixed($x, $y) {
+    position: fixed;
+    top: $x;
+    left: $y;
+}

@@ -1,0 +1,13 @@
+@import '../partials/variables';
+.galerie {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+    .image {
+        margin: 20px;
+        width: 200px;
+        height: 200px;
+        background: $imageColor;
+    }    
+}

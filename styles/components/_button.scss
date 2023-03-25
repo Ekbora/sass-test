@@ -1,0 +1,13 @@
+.btn {
+    background: blueviolet;
+    border: solid 2px black;
+    padding: 10px;
+    border-radius: 20px;
+    transition: all ease .5s;
+
+    &:hover {
+        background: purple;
+        color: #fff;
+        cursor: pointer;
+    }
+}
